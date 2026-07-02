@@ -12,21 +12,21 @@ export default function Screen2Positioning({ answers, onNext, onBack }: ScreenPr
         {isOffline ? (
           <>
             <h1 className="font-display font-bold text-3xl text-text-primary">
-              A <span className="line-through text-text-muted">replacement for your clinic</span> tool
-              that runs it better.
+              <span className="line-through text-text-muted">Replacing</span> your clinic.
+              Running it better.
             </h1>
             <p className="text-text-muted text-sm">
-              Patient records, reminders, and admin — sorted. Your in-person workflow stays exactly as it is.
+              Records, reminders, and follow-ups sorted digitally. Your in-person setup stays exactly as it is.
             </p>
           </>
         ) : (
           <>
             <h1 className="font-display font-bold text-3xl text-text-primary">
-              From <span className="line-through text-text-muted">booking to prescription</span>{' '}
-              everything, in one place.
+              <span className="line-through text-text-muted">Five tools for one clinic.</span>{' '}
+              One system, start to finish.
             </h1>
             <p className="text-text-muted text-sm">
-              Patients book, pay, consult, and get prescriptions — without leaving WhatsApp.
+              Booking, reminders, consultations, prescriptions — all handled automatically on WhatsApp.
             </p>
           </>
         )}

@@ -19,90 +19,98 @@ export interface Solution {
 export const solutions: Record<ProblemKey, Solution> = {
   'booking-chaos': {
     key: 'booking-chaos',
-    headlineStrikethrough: 'Booking chaos',
-    headlineCorrection: 'One link. Every channel. One dashboard.',
+    // Strike = old chaos. Correction = the automated outcome.
+    headlineStrikethrough: 'Patients messaging across five channels.',
+    headlineCorrection: 'One WhatsApp link books the slot automatically.',
     whatWeBuild: [
-      'Patients book via WhatsApp, Instagram, or your website — all in one place',
-      'Automated confirmations go out instantly, no manual typing',
+      'Patients message in — the system books the slot, no back-and-forth',
+      'Every booking lands in one place, no channel-checking required',
     ],
-    videoSrc: '/videos/appointments.mp4',
+    videoSrc: '/videos/whatsapp-automation.mp4',
     fallbackImageSrc: placeholderGeneric,
   },
   'whatsapp-overload': {
     key: 'whatsapp-overload',
-    headlineStrikethrough: 'WhatsApp overload',
-    headlineCorrection: 'Same questions, answered automatically.',
+    // Strike = the daily grind of answering the same thing. Correction = it stops.
+    headlineStrikethrough: 'Answering the same questions a hundred times a day.',
+    headlineCorrection: 'Auto-replies handle it. You only see what needs you.',
     whatWeBuild: [
-      'An AI assistant handles FAQs, timings, and pricing without you',
-      'Only messages that actually need you reach you',
+      'Instant auto-replies to FAQs, timings, and appointment requests',
+      'Only conversations that actually need you reach you',
     ],
     videoSrc: '/videos/whatsapp-automation.mp4',
     fallbackImageSrc: whatsappDoodle,
   },
   'prescription-delays': {
     key: 'prescription-delays',
-    headlineStrikethrough: 'Prescription delays',
-    headlineCorrection: 'Written in seconds. Sent automatically.',
+    // Strike = slow manual flow. Correction = it's instant and automatic.
+    headlineStrikethrough: 'Writing it out, then sending it separately.',
+    headlineCorrection: 'One tap. Prescription delivered to the patient on WhatsApp.',
     whatWeBuild: [
-      'One-tap templated prescriptions, editable per patient',
-      'Delivered straight to the patient on WhatsApp after the consult',
+      'Save and send the prescription directly from the consultation screen',
+      'Patient gets a PDF on WhatsApp the moment you hit send',
     ],
     videoSrc: '/videos/prescription.mp4',
     fallbackImageSrc: aiChatbot,
   },
   'no-shows': {
     key: 'no-shows',
-    headlineStrikethrough: 'No-shows',
-    headlineCorrection: 'Reminders that actually get sent, every time.',
+    // Strike = silence before the appointment. Correction = automated nudges.
+    headlineStrikethrough: 'No reminder, patient forgets, slot goes empty.',
+    headlineCorrection: 'Reminders go out automatically before every appointment.',
     whatWeBuild: [
-      'Automated reminders sent a day and an hour before the appointment',
-      'One-tap reschedule link — patients fix their own slot, not you',
+      "WhatsApp reminders sent automatically — you don't touch anything",
+      'Patients can reschedule via a link, so you keep the slot either way',
     ],
-    videoSrc: '/videos/appointments.mp4',
+    videoSrc: '/videos/whatsapp-automation.mp4',
     fallbackImageSrc: doodlePhone,
   },
   'reception-bottleneck': {
     key: 'reception-bottleneck',
-    headlineStrikethrough: 'Reception bottleneck',
-    headlineCorrection: 'A back-office that runs when reception is slammed.',
+    // Strike = everything bottlenecks at one desk. Correction = dashboard spreads it.
+    headlineStrikethrough: 'Every booking and query funnelled through one desk.',
+    headlineCorrection: 'Everything visible in one dashboard. No bottleneck.',
     whatWeBuild: [
-      'Self-serve booking and reminders without a person at the desk',
-      'Every appointment, payment, and query visible from one dashboard',
+      'All appointments, payments, and patient info in one screen',
+      'Reception focuses on people, not managing five different places',
     ],
     videoSrc: '/videos/dashboard.mp4',
     fallbackImageSrc: placeholderGeneric,
   },
   'paper-records': {
     key: 'paper-records',
-    headlineStrikethrough: 'Paper records',
-    headlineCorrection: 'Every patient history, in one searchable place.',
+    // Strike = paper/manual chaos. Correction = digital, instant.
+    headlineStrikethrough: 'History scattered across files, memory, and handwriting.',
+    headlineCorrection: 'Patient notes captured digitally. Pulled up in seconds.',
     whatWeBuild: [
-      'Consultation notes captured digitally, pulled up in seconds',
-      'Searchable history across every past visit and prescription',
+      'Consultation notes filled during the visit — no paper, no typing later',
+      'Full history, prescriptions, and notes searchable on the next visit',
     ],
     videoSrc: '/videos/consultation-note.mp4',
     fallbackImageSrc: doodlePencil,
   },
   'missed-followups': {
     key: 'missed-followups',
-    headlineStrikethrough: 'Missed follow-ups',
-    headlineCorrection: 'Automatic nudges for every patient due to return.',
+    // Strike = relying on memory/nothing. Correction = it's tracked inside the consultation.
+    headlineStrikethrough: 'Relying on memory to know who needs to come back.',
+    headlineCorrection: 'Flag it in the note. Reminder goes out automatically.',
     whatWeBuild: [
-      'Follow-up messages sent automatically based on treatment timeline',
-      'A daily list of who is due — no manual tracking',
+      'Mark a follow-up inside the consultation — the system tracks it from there',
+      'Patient gets a reminder when the time comes, without you doing anything',
     ],
-    videoSrc: '/videos/whatsapp-automation.mp4',
+    videoSrc: '/videos/appointments.mp4',
     fallbackImageSrc: docflow,
   },
   'manual-reminders': {
     key: 'manual-reminders',
-    headlineStrikethrough: 'Manual reminders',
-    headlineCorrection: 'Reminders that send themselves.',
+    // Strike = calling patients one by one. Correction = it sends itself.
+    headlineStrikethrough: 'Calling patients one by one to confirm appointments.',
+    headlineCorrection: 'Reminders send themselves on WhatsApp.',
     whatWeBuild: [
-      'Automated WhatsApp reminders sent on your behalf, no calling',
-      'Confirmations logged automatically so you know who is coming',
+      'Automated WhatsApp messages go out on your behalf — no calling',
+      'Confirmations come back automatically so you know who is coming',
     ],
-    videoSrc: '/videos/appointments.mp4',
+    videoSrc: '/videos/whatsapp-automation.mp4',
     fallbackImageSrc: doodlePhone,
   },
 };
