@@ -31,7 +31,10 @@ export default function Screen4Solution({ answers, onNext, onBack, onJumpTo }: S
           ))}
         </ul>
 
-        <button onClick={() => onJumpTo(6)} className="text-center text-sm text-text-muted underline">
+        <button
+          onClick={() => onJumpTo(6)}
+          className="w-full rounded-full bg-accent-teal text-white font-medium py-3 text-center"
+        >
           Talk to us about this →
         </button>
       </div>
