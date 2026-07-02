@@ -15,9 +15,8 @@ export default function Screen2Positioning({ answers, onNext, onBack }: ScreenPr
               A <span className="line-through text-text-muted">replacement for your clinic</span> tool
               that runs it better.
             </h1>
-            <p className="text-text-muted">
-              Think of this as your back-office. Patient records, reminders, and admin, sorted. Your
-              in-person workflow stays exactly as it is.
+            <p className="text-text-muted text-sm">
+              Patient records, reminders, and admin — sorted. Your in-person workflow stays exactly as it is.
             </p>
           </>
         ) : (
@@ -26,9 +25,8 @@ export default function Screen2Positioning({ answers, onNext, onBack }: ScreenPr
               From <span className="line-through text-text-muted">booking to prescription</span>{' '}
               everything, in one place.
             </h1>
-            <p className="text-text-muted">
-              This becomes your full consultation system. Patients book, pay, consult, and get
-              prescriptions, without leaving WhatsApp.
+            <p className="text-text-muted text-sm">
+              Patients book, pay, consult, and get prescriptions — without leaving WhatsApp.
             </p>
           </>
         )}

@@ -23,11 +23,11 @@ export default function Screen0Greeting({ onNext }: ScreenProps) {
       {/* TODO: optional background video slot — currently disabled */}
       {/* <video muted loop autoPlay playsInline className="hidden" /> */}
 
-      <h1 className="font-display font-bold text-3xl text-text-primary max-w-md">
-        Most clinics lose patients to bad WhatsApp replies, not bad doctors.
+      <h1 className="font-display font-bold text-3xl text-text-primary max-w-sm">
+        Most clinics lose patients to bad systems, not bad doctors.
       </h1>
-      <p className="text-text-muted max-w-sm">
-        Let's find out what's actually slowing your practice down.
+      <p className="text-text-muted max-w-xs text-sm">
+        Two minutes to find out what's slowing your practice down.
       </p>
 
       <button
