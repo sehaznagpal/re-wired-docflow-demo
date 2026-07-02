@@ -12,7 +12,7 @@ export default function Screen2Positioning({ answers, onNext, onBack }: ScreenPr
         {isOffline ? (
           <>
             <h1 className="font-display font-bold text-3xl text-text-primary">
-              <span className="line-through text-text-muted">Replacing</span> your clinic.
+              <span className="line-through text-text-muted">Replacing your clinic.</span>{' '}
               Running it better.
             </h1>
             <p className="text-text-muted text-sm">
